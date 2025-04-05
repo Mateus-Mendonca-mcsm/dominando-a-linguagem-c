@@ -1,7 +1,7 @@
 #include <stdio.h> // Biblioteca padrão de entrada e saída de dados
 
 int main() {
-    int a;
+    int a; // eu posso declarar a variável 'a','b' e 'soma' do tipo inteiro na mesma linha tbm.
     int b;
     int soma;
 
