@@ -44,3 +44,23 @@ int main() {
         .O operador '&' é necessário na função scanf para que o valor digitado pelo usuário seja armazenado na variável correta.
         . Sem o operador '&', a função scanf não saberia onde armazenar o valor digitado.
         . O operador '&' é utilizado para passar o endereço da variável para a função scanf, permitindo que ela armazene o valor digitado na variável correta. */ 
+
+
+
+                                  //PARA SABER MAIS
+/* 1. O que é uma variável?
+   - Uma variável é um espaço na memória do computador que pode armazenar um valor. 
+   - As variáveis têm um nome e um tipo, que determina o tipo de dado que podem armazenar (como inteiro, ponto flutuante, caractere, etc.).
+    - No exemplo, 'a', 'b' e 'soma' são variáveis do tipo inteiro.
+    
+2. O que é uma função?
+   - Uma função é um bloco de código que executa uma tarefa específica.
+    - As funções podem receber entradas (argumentos) e retornar um valor.
+    - A função 'main' é a função principal de um programa em C, onde a execução começa.
+    
+3. O que é uma biblioteca?
+   - Uma biblioteca é um conjunto de funções e definições que podem ser usadas em um programa.
+
+printf( “Digite o primeiro inteiro\n” ); 'prompt' imprime a literal Digite o primeiro inteiro na tela e posiciona o cursor no início da próxima linha. Essa mensagem é um prompt, porque ela pede ao usuário que tome uma atitude específica.
+
+scanf( “%d”, &inteiro1 ); 'lê um inteiro' usa scanf para obter um valor do usuário. A função scanf lê o dado de entrada-padrão, que normalmente é o teclado. Esse scanf tem dois argumentos, “%d” e &inteiro1. O primeiro argumento, a string de controle de formato, indica o tipo de dado que deve ser digitado pelo usuário. O especificador de conversão %d indica que os dados devem ser um inteiro (a letra d significa ‘inteiro decimal’). O %, nesse contexto, é tratado pelo scanf (e pelo printf, como veremos adiante) como um caractere especial, que inicia um especificador de conversão. O segundo argumento de scanf começa com um (&) — chamado de operador de endereço em C —, seguido pelo nome da variável. O (&), quando combinado com o nome da variável, informa à scanf o local (ou endereço) na memória.*/
