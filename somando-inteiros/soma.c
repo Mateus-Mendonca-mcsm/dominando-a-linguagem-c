@@ -1,5 +1,6 @@
 #include <stdio.h> // Biblioteca padrão de entrada e saída de dados
 
+// dentro da função main, eu faço primeiro a declaração das variáveis que eu vou usar, depois eu faço a leitura dos dados e por último eu faço o processamento e exibo o resultado.
 int main() {
     int a; // eu posso declarar a variável 'a','b' e 'soma' do tipo inteiro na mesma linha tbm.
     int b;
